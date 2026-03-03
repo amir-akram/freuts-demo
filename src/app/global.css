@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* ---- Theme Extensions (v4 way) ---- */
+@theme {
+  /* Font */
+  --font-sans: var(--font-alpino), sans-serif;
+
+  /* Animations */
+  --animate-slide-left: slide-left 6s linear infinite;
+  --animate-spin-slow: spin 6s linear infinite;
+
+  /* Keyframes */
+  @keyframes slide-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-270px);
+    }
+  }
+}
