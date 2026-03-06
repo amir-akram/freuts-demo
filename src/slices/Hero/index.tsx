@@ -53,7 +53,7 @@ const Hero: FC<HeroProps> = ({ slice }) => {
             start: "top top",
             end: "bottom bottom",
             scrub: 1.5,
-            markers: true,
+            //markers: true,
           }
         })
 
